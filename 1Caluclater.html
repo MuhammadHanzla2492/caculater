@@ -1,0 +1,59 @@
+<html>
+<head>
+<style>
+	.Clear{
+		width: 100px;
+	}
+	.formstyle{
+		width: 130px;
+		height: 255px;
+		margin: auto;
+		border: 2px solid red;
+	}
+	input{
+		width:40px;
+		background-color: blue;
+		color: white;
+	}
+	#answerstyle{
+		width:130px;
+	}
+	#clear{
+		width: 130px;
+	}
+</style>
+</head>
+<body>
+<div class="formstyle">
+	<form name="forms">
+		<input type="text" name="answer" id="answerstyle"><br></br>
+
+			<input type="button" value="1" onclick="form.answer.value +='1' ">
+		    <input type="button" value="2" onclick="form.answer.value +='2' ">
+		    <input type="button" value="3" onclick="form.answer.value +='3' ">
+          <br></br>
+		    <input type="button" value="4" onclick="form.answer.value +='4' ">
+		    <input type="button" value="5" onclick="form.answer.value +='5' ">
+		    <input type="button" value="6" onclick="form.answer.value +='6' ">
+          <br></br>
+		    <input type="button" value="7" onclick="form.answer.value +='7' ">
+		    <input type="button" value="8" onclick="form.answer.value +='8' ">
+		    <input type="button" value="9" onclick="form.answer.value +='9' ">
+          <br></br>
+		    <input type="button" value="+" onclick="form.answer.value +='+' ">
+		    <input type="button" value="-" onclick="form.answer.value +='-' ">
+		    <input type="button" value="*" onclick="form.answer.value +='*' ">
+		   <br></br>
+		    <input type="button" value="/" onclick="form.answer.value +='/' ">
+		    <input type="button" value="=" onclick="form.answer.value =eval( form.answer.value) ">
+		    <input type="button" value="0" onclick="form.answer.value +='0' ">
+
+		    <br></br>
+		    <input type="button" value="Clear All" onclick="form.answer.value ='' " id="Clear">
+	</form>
+
+
+</div>
+
+</body>
+</html>

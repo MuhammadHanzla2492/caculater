@@ -1,0 +1,67 @@
+<!DOCDTYPE>
+<html>
+<head>
+    <title>Caluclater</title>
+</head>
+
+	<center>
+
+        <h1 style="color: blue;" >My Calculater</h1>
+<body bgcolor="lightgrey" text="gold">
+    
+    <style type="text/css">
+        .button{
+            color: black;
+            background: red;
+            width: 40px;
+            height: 40px;
+        }
+        .c{
+            color: black;
+            background: blue;
+            width: 85px;
+            height: 40px;
+        }
+        .box{
+            width: 170px; height: 40px;
+        }
+
+    </style>
+    <form name="Calculater">
+        <input type="button" value="1" onClick="document.Calculater.ans.value+='1'" class="button">
+        <input type="button" value="2" onClick="document.Calculater.ans.value+='2'" class="button">
+        <input type="button" value="3" onClick="document.Calculater.ans.value+='3'" class="button">
+        <input type="button" value="+" onClick="document.Calculater.ans.value+='+'" class="button">
+
+    <br>
+        <input type="button" value="4" onClick="document.Calculater.ans.value+='4'" class="button">
+        <input type="button" value="5" onClick="document.Calculater.ans.value+='5'" class="button">
+        <input type="button" value="6" onClick="document.Calculater.ans.value+='6'" class="button">
+        <input type="button" value="-" onClick="document.Calculater.ans.value+='-'" class="button">
+        <br>
+        <input type="button" value="7" onClick="document.Calculater.ans.value+='7'" class="button">
+        <input type="button" value="8" onClick="document.Calculater.ans.value+='8'" class="button">
+        <input type="button" value="9" onClick="document.Calculater.ans.value+='9'" class="button">
+        <input type="button" value="*" onClick="document.Calculater.ans.value+='*'" class="button">
+        <br>
+        <input type="button" value="/" onClick="document.Calculater.ans.value+='/'" class="button">
+        
+        <input type="button" value="=" onClick="document.Calculater.ans.value=eval(document.Calculater.ans.value)"class="button">
+        <input type="reset" value="C"  class="c">
+        <br>
+        <br>
+        <input type="textfield" name="ans" value=" " class="box">
+    </form>
+
+
+	</center>
+</body>
+<html>
+
+
+
+
+  
+
+ 
+
